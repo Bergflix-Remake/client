@@ -1,5 +1,5 @@
 {
-  "name": "@bergflix-remake/content-client",
+  "name": "@bergflix-remake/client",
   "version": "0.0.1",
   "description": "OpenAPI client for ",
   "author": "OpenAPI-Generator Contributors",
@@ -24,5 +24,8 @@
   "devDependencies": {
     "@types/node": "^12.11.5",
     "typescript": "^3.6.4"
-  }
+  },
+  "publishConfig": {
+		"@bergflix-remake:registry": "https://npm.pkg.github.com"
+	}
 }
